@@ -6,7 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  print("hello");
   await translator.init(
     localeType: LocalizationDefaultType.device,
     languagesList: ['ar', 'en'],
